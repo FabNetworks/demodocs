@@ -1,6 +1,6 @@
 
 <h1 align="center">
-Blockchain
+FabNetworks - DemoDocs
 </h1>
 
 <p align="left">
@@ -11,7 +11,7 @@ Blockchain
 
 ## Fabnet Demo Documentation
 
-This repo builds gitbooks documentation of the networks on FabNetworks.org.
+This repo builds the gitbooks documentation for the networks on FabNetworks.org.
 
 
 ## Build instructions
