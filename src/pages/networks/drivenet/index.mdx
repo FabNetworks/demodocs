@@ -319,7 +319,7 @@ Repeat the process for the app: clone the client application repository using th
 
 Follow the 'Joining a network' Tutorials of the IBM Blockchain Platform VS Code extension, to connect a gateway to DriveNet from within VS Code.
 
-*Given you have already acquired your connection details, start from the middle of tutorial B2 when you connect to the web console for the first time. You can stop once your gateway is connected in tutorial B5.*
+*Given you have already acquired your connection details, start from the middle of tutorial B2 when you connect to the web console for the first time. You can stop once your gateway is connected in tutorial B5. To recap, the key steps are: (1) log in to the IBM Blockchain Platform web console using your administration userid and password; (2) click the CA node and select 'Associate Identity', supplying the enrollment user id and password from the Developer details section; (3) click the peer node and select 'Associate Identity' and supply the same identity; (4) download the identity file from the web console's wallet, and use it to create a wallet in the VS Code extension; (5) create and connect to a DriveNet gateway in the VS Code extension, using the gateway file from the developer details section and the wallet you just created.*
 
 <p align="center">
   <img src="./images/vscode-gateway.png" alt="Connected to DriveNet from VS Code"/>
@@ -343,7 +343,11 @@ Demonstrate the IBM Blockchain Platform development environment.
 
 *In this final part of the demonstration we will look under the hood at the blockchain itself, using the IBM Blockchain Platform web console.*
 
-*It requires you to have already enrolled with the DriveNet CA and peer; you should have done this during the B tutorials in the last section.*
+<InlineNotification kind="warning">
+
+**Have you enrolled your identity with the network?** This section requires you to have already enrolled with the DriveNet CA and peer, which you should have done during the B tutorials in the last section. To recap, the key steps are: (1) log in to the IBM Blockchain Platform web console using the administration userid and password; (2) click the CA node and select 'Associate Identity', supplying the enrollment user id and password from the Developer details section; (3) click the peer node and select 'Associate Identity' and supply the same identity. Now log off the web console and continue the demo.
+
+</InlineNotification>
 
 &nbsp;<br/>
 

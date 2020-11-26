@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'DemoDocs',
     description: 'DemoDocs',
-    keywords: 'ibm,mcm,carbon',
+    keywords: 'ibm,blockchain,fabnetworks',
   },
   plugins: ['gatsby-theme-carbon',
     'gatsby-transformer-json',
@@ -18,11 +18,11 @@ module.exports = {
         isSearchEnabled: true,
         repository: {
           baseUrl:
-            'https://github.com/FabNetworks/demodocs/',
+            'https://fabnetworks.github.io/demodocs/',
           subDirectory: '/',
         },
       },
     }
   ],
-  pathPrefix: "/FabNetworks/demodocs/",
+  pathPrefix: "/demodocs/",
 };
