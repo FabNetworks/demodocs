@@ -11,38 +11,36 @@ Blockchain
 
 ## Fabnet Demo Documentation
 
-This resource provides documentation of the networks on FabNetworks.org.
+This repo builds gitbooks documentation of the networks on FabNetworks.org.
 
-The course materials can be viewed at- [tbd](tbd)
 
+## Build instructions
+
+1. Clone the repo:
 
 ```
 git clone
 ```
 
-### Install dependencies
+2. Install dependencies:
 
 ```
 npm install
 ```
 
-### Publish Content
+3. Test locally:
 
-Currently, the content is published to the GitHub pages site through the `gh-pages` branch
-using the `gh-pages` npm module. All of the details for handling the publishing are covered within
-the deploy script. The deploy can be run using the following:
+```
+npm run dev
+```
+
+4. Publish
 
 ```
 npm run deploy
 ```
 
-The result of the `deploy` can be viewed here - https://pages.github.ibm.com/lucas/activation/
+The result of the deploy can be viewed here: https://fabnetworks.github.io/demodocs/
 
 **Note:** There is a time delay between when the deploy process completes and when the
 content is available on the published site.
-
-### Contributors
-
-- Matt Lucas
-- Anthony O'Dowd
-- Matthew Golby-Kirk
