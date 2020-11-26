@@ -13,7 +13,7 @@ Blockchain
 
 This resource provides documentation of the networks on FabNetworks.org.
 
-The course materials can be viewed at- [tbd](tbd)
+The course materials can be viewed at https://fabnetworks.github.io/demodocs/.
 
 
 ```
@@ -36,7 +36,7 @@ the deploy script. The deploy can be run using the following:
 npm run deploy
 ```
 
-The result of the `deploy` can be viewed here - https://pages.github.ibm.com/lucas/activation/
+The result of the `deploy` can be viewed here - https://fabnetworks.github.io/demodocs/
 
 **Note:** There is a time delay between when the deploy process completes and when the
 content is available on the published site.
