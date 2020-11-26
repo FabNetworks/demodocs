@@ -9,9 +9,9 @@ Blockchain
     </a>
 </p>
 
-## Blockchain Demos
+## Fabnet Demo Documentation
 
-This resource is provides access to the latest demos, tutorials and tools on blockchain
+This resource provides documentation of the networks on FabNetworks.org.
 
 The course materials can be viewed at- [tbd](tbd)
 
@@ -45,3 +45,4 @@ content is available on the published site.
 
 - Matt Lucas
 - Anthony O'Dowd
+- Matthew Golby-Kirk
